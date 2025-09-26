@@ -4,10 +4,10 @@
     "start_url": "./",
     "display": "standalone",
     "background_color": "#7d97fc",
-    "orientattion": "portrait",
+    "orientation": "portrait",
     "scope": "./",
     "theme_color": "#000000",
-    "images": [
+    "icons": [
         {
             "src": "./img/m.jpg",
             "type": "image/jpg",
