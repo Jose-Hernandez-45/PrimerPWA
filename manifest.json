@@ -1,32 +1,32 @@
 {
-    "name": "Mi PWA",
-    "short_name": "PWA",
-    "start_url": "./",
-    "display": "standalone",
-    "background_color": "#7d97fc",
-    "orientation": "portrait",
-    "scope": "./",
-    "theme_color": "#000000",
-    "icons": [
-        {
-            "src": "./img/m.jpg",
-            "type": "image/jpg",
-            "sizes": "400x400"
-        },
-        {
-            "src": "./img/OIP.webp",
-            "type": "image/webp",
-            "sizes": "400x400"
-        },
-        {
-            "src": "./img/R.jpg",
-            "type": "image/jpg",
-            "sizes": "400x400"
-        },
-        {
-            "src": "./img/TOP.jpg",
-            "type": "image/jpg",
-            "sizes": "400x400"
-        }
-    ]
+  "name": "Mi PWA",
+  "short_name": "PWA",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#7d97fc",
+  "orientation": "portrait",
+  "scope": "./",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "./img/m.jpg",
+      "type": "image/jpg",
+      "sizes": "400x400"
+    },
+    {
+      "src": "./img/OIP.webp",
+      "type": "image/webp",
+      "sizes": "400x400"
+    },
+    {
+      "src": "./img/R.jpg",
+      "type": "image/jpg",
+      "sizes": "400x400"
+    },
+    {
+      "src": "./img/TOP.jpg",
+      "type": "image/jpg",
+      "sizes": "400x400"
+    }
+  ]
 }
