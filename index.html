@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primera PWA de Jose Hernandez</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="manifest" href="./manifest.json">
+    <script>
+        if("serviceWorker" in navigator){
+            navigator.serviceWorker.register("/sw.js")
+            .then(registration => {
+                console.log("Service Worker registered with scope:", registration.scope);
+            })
+            .catch(error => {
+                console.log("Service Worker registration failed:", error);
+            });
+        }
+    </script>
+</head>
+<body>
+    <h1>Primera PWA</h1>
+    <br>
+    <h2>Galeria de imagenes</h2>
+    <div class="img-container">
+        <img src="./img/R.jpg" alt="Silksong" class="img">
+        <img src="./img/OIP.webp" alt="Forza" class="img">
+        <img src="./img/TOP.jpg" alt="Top" class="img">
+        <img src="./img/m.jpg" alt="Mondonguito" class="img">
+    </div>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Asperiores quod inventore doloremque natus. Aperiam veritatis 
+        porro quis omnis deserunt debitis architecto doloremque optio 
+        ipsa quam mollitia, quidem ea nihil voluptas?
+    </p>
+    <br>
+    <p>
+        Nombre: Jose Miguel Hernandez Galindo
+        <br>
+        Matricula: 220477
+    </p>
+</body>
+</html>
